@@ -1,4 +1,5 @@
 require 'serverspec'
+$LOAD_PATH.concat Dir.glob('/opt/chef/embedded/lib/ruby/gems/2.1.0/gems/*/lib')
 require 'ohai'
 
 set :backend, :exec
